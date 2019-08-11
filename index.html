@@ -292,7 +292,7 @@
 
                 // Bind keyboard and resize events.
                 KeyboardJS.bind.axis('left', 'right', 'down', 'up', onMoveKey);
-                KeyboardJS.bind.axis('h', 'l', 'j', 'k', onMoveKey);
+                KeyboardJS.bind.axis('a', 'd', 's', 'w', onMoveKey);
                 $(window).resize(onResize);
                 
 
@@ -351,15 +351,15 @@
     <body>
     
     <div id='instructions'>
-        How to play Astray:
+        Как играть:
         <br><br>
-        Use the arrow keys to move the ball and find the exit to the maze.
+        Используйте стрелки для управления шаром и попытайтесь найти выход из лабиринта.
         <br><br>
-        Vim trainees: h, j, k, l
+        Альтернативное управление: w, a, s, d
     </div>
     
     <div id='help'>
-        Hold down the 'I' key for instructions.
+        Удерживайте 'I' чтобы увидеть инструкцию.
     </div>
 
     <div id='level'>
